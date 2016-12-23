@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0' >
+    <title>Gym</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=vietnamese" rel="stylesheet">
+</head>
+<body class="page-classroom">
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2 left-top-header">
+                        <a href="#">
+                            <i class="fa fa-mobile" aria-hidden="true"></i>0978 888 999
+                        </a>
+                    </div>
+                    <div class="col-xs-5 map-top-header">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> 69 Nguyễn Trãi, Thanh Xuân, Hà Nội
+                    </div>
+                    <div class="col-xs-5 right-top-header">
+                        <ul>
+                            <li><a href="#">Liên hệ</a> </li>
+                            <li><a href="#">Giới thiệu</a> </li>
+                            <li class="register"><a href="#" data-toggle="modal" data-target="#register"> <i class="fa fa-user user-custom" aria-hidden="true"></i> Đăng ký</a> </li>
+                            <li class="login"><a href="#" data-toggle="modal" data-target="#login">Đăng nhập</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="search">
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="search" class="form-control" id="" placeholder="Search">
+                                        <div class="input-group-addon"><button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <a class="navbar-brand" href="#"><img src="images/img-logo-1.png" width="" height="" alt=""></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class=" level-1"><a href="#" class="icon-home">Trang chủ</a></li>
+                            <li class="level-1"><a href="#" class="icon-change-award">Tham gia</a></li>
+                            <li class="level-1">
+                                <a href="#" class="icon-guide active">Lớp học</a>
+                                <ul class="menu-level-2">
+                                    <li class="level-2"><a href="#">Gym</a> </li>
+                                    <li class="level-2"><a href="#">Yoga</a> </li>
+                                    <li class="level-2"><a href="#">Bơi lội</a> </li>
+                                </ul>
+                            </li>
+                            <li class="level-1"><a href="#" class="icon-guide">Thẻ hội viên</a></li>
+                            <li class="level-1"><a href="#" class="icon-guide">Lịch tập</a></li>
+                            <li class="level-1"><a href="#" class="icon-guide">Giảng viên</a></li>
+                            <li class="level-1"><a href="#" class="icon-guide">Tin tức</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <div class="search">
+                                    <form class="form-inline">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input type="search" class="form-control" id="" placeholder="Search">
+                                                <div class="input-group-addon"><button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+					</div>
+                </div>
+            </nav>
+            </div>
+        </div>
+        <div class="banner banner-participation-1">
+            <div class="slide">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <a href="#"> <img src="images/img8-banner.jpg" alt="" width="" height=""></a>
+                            <div class="carousel-caption">
+                                <h3><a href="#" class="title-banner">Lợi ích từ việc tập yoga</a> </h3>
+                                <p>Chúng tôi sẽ giúp bạn có một cơ thể khỏe mạnh và cường tráng hãy đăng ký ngay với chúng tôi</p>
+                                <a href="#" class="btn btn-register">Bắt đầu ngay</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="#"> <img src="images/img4-banner.png" alt="" width="" height=""></a>
+                            <div class="carousel-caption">
+                                <h3><a href="#" class="title-banner">Lợi ích từ việc tập yoga</a> </h3>
+                                <p>Chúng tôi sẽ giúp bạn có một cơ thể khỏe mạnh và cường tráng hãy đăng ký ngay với chúng tôi</p>
+                                <a href="#" class="btn btn-register">Bắt đầu ngay</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="#"> <img src="images/img4-banner.png" alt="" width="" height=""></a>
+                            <div class="carousel-caption">
+                                <h3><a href="#" class="title-banner">Lợi ích từ việc tập yoga</a> </h3>
+                                <p>Chúng tôi sẽ giúp bạn có một cơ thể khỏe mạnh và cường tráng hãy đăng ký ngay với chúng tôi</p>
+                                <a href="#" class="btn btn-register">Bắt đầu ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--slide-->
+        </div>
+    </header>
+    <!--end header-->
+
+    <div class="main-page">
+        <div class="box-list-classroom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <div class="left-list-classroom">
+                            <div class="box-tab">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Yoga</a></li>
+                                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Lớp học Yoga</a></li>
+                                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Học viên Yoga</a></li>
+                                </ul>
+                            </div>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    <div class="content-tab">
+                                        <div class="box-tab-yoga box-tab-yoga-1">
+                                            <div class="box-title-3">
+                                                <h4><a href="#"> Nghìn lý do bạn nên tập Yoga</a></h4>
+                                                <p>Có mặt tại hàng trăm quốc gia trên toàn thế giới, là ưu tiên số 1 trong tất cả các “bí kíp” kéo dài sức khỏe, vẻ đẹp thanh xuân và tuổi thọ, Yoga được biết đến là “phép màu” trong phòng tập thể dục thể thao khắp hành tinh. Vậy những lợi ích của Yoga là gì?</p>
+                                            </div>
+                                            <div class="list-tab-yoga row">
+                                                <div class="col-xs-6 col-xs-push-6 img">
+                                                    <a href="#"><img src="images/img8-1.jpg" width="" height="" alt=""></a>
+                                                </div>
+                                                <div class="col-xs-6 col-xs-pull-6 text">
+                                                    <div class="box-text">
+                                                        <h3>Yoga là gì?</h3>
+                                                        <p>Yoga là phương pháp tập luyện đòi hỏi sự kết hợp cao độ của tinh thần và thể xác tại cùng một thời điểm. Dựa trên nguyên tắc kiểm soát hơi thở và giữ cơ thể ở nguyên một tư thế, qua đó làm chủ và điều khiển được sự dẻo dai của cơ thể, nâng cao trí Yoga là phương pháp tập luyện đòi hỏi sự kết hợp cao độ của tinh thần và thể xác tại cùng một thời điểm. Dựa trên nguyên tắc kiểm soát hơi thở và giữ cơ thể ở nguyên một tư thế, qua đó làm chủ và điều khiển được sự dẻo dai của cơ thể, nâng cao trí ích của Yoga, bộ môn này được xem là hình thức luyện tập thể thao lâu đời và đáng tin cậy nhất trên thế giới.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-tab-yoga box-tab-yoga-2">
+                                            <div class="box-title-3">
+                                                <h4><a href="#"> Tại sao bạn nên tập Yoga</a></h4>
+                                                <p>Yoga phù hợp cho mọi lứa tuổi, giới tính, mọi thể trạng, tình trạng sức khỏe và đáp ứng tất cả nhu cầu về hình thể cũng như lợi ích sức khỏe lâu dài. </p>
+                                            </div>
+                                            <div class="list-tab-yoga row">
+                                                <div class="col-xs-6 img">
+                                                    <a href="#"><img src="images/img8-2.jpg" width="" height="" alt=""></a>
+                                                </div>
+                                                <div class="col-xs-6 text">
+                                                    <div class="box-text">
+                                                        <h3>Yoga giảm cân nhanh và lành mạnh</h3>
+                                                        <p>Rất nhiều người nghi ngờ hiệu quả giảm cân của yoga khi nhìn tinh thần và thể xác tại cùng một thời điểm. Dựa trên nguyên tắc kiểm soát hơi thở và giữ cơ thể ở nguyên một tư thế, qua đó làm chủ và điều khiển và thể xác tại cùng một thời điểm. Dựa trên nguyên tắc kiểm soát hơi thở và giữ cơ thể ở nguyên một tư thế, qua đó làm chủ và điều khiển được sự dẻo dai của cơ thể, nâng cao trí ích của Yoga, bộ môn này được xem là hình thức luyện tập thể thao lâu đời và đáng tin cậy nhất trên thế giới.30 phút tập Yoga đốt cháy 400kl Calo và các bài tập Yoga tương cân nhưng kết hợp tăng cơ và điều chỉnh lại các chỉ số hình thể vô cùng hiệu quả. Đừng ngạc nhiên tại sao chỉ với 1,2 tuần tập luyện, bạn đã cảm nhận rõ ràng sự thay đổi của cơ thể! </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-tab-yoga box-tab-yoga-3">
+                                            <div class="box-title-3">
+                                                <h4><a href="#"> Yoga giữ gìn sắc đẹp và tuổi thanh xuân</a></h4>
+                                                <p>
+                                                    Tại sao các người mẫu, diễn viên hàng đầu thế giới, những biểu tượng nhan sắc khiến hàng tỷ người ngưỡng mộ đều chọn Yoga
+                                                    là phương pháp luyện tập hàng ngày? Yoga giúp họ duy trì nhan sắc, giữ cho cơ thể săn chắc, không chảy xệ. Các bó cơ dễ bị lão
+                                                    hóa nhất là mặt, vùng ngực, bụng và mông, các động tác yoga luôn buộc người tập phải thực hiện các tư thế khó, không bỏ sót
+                                                    bất cứ phần cơ nào trên cơ thể, khiến cơ luôn được vận động, tái tạo, từ đó mang đến sự đàn hồi cho da, giữ gìn sự săn chắc và
+                                                    tươi sáng. Không bị nhão cơ hay chảy xệ sẽ giúp vẻ bề ngoài luôn trẻ trung, đầy sức sống. Bên cạnh đó, luyện tập yoga còn là liệu pháp tinh thần tuyệt vời,
+                                                    giúp đầu óc thoải mái, thư giãn, ngủ ngon giấc, Đây chính là thuốc tiên cho tuổi thanh xuân.
+                                                </p>
+                                            </div>
+                                            <div class="list-tab-yoga row">
+                                                <div class="col-xs-6 img">
+                                                    <a href="#"><img src="images/img8-3.jpg" width="" height="" alt=""></a>
+                                                </div>
+                                                <div class="col-xs-6 text">
+                                                    <div class="box-text">
+                                                        <h3>Yoga đẩy lùi mọi bệnh tật</h3>
+                                                        <p>Yoga là phương pháp tập luyện đòi hỏi sự kết hợp cao độ một thời điểm. Dựa trên nguyên tắc kiểm soát hơi thở và giữ cơ thể ở nguyên một tư thế, trí Yoga là phương thần và thể xác tại cùng một thời điểm. Dựa trên nguyên tắc kiểm soát hơi thở và giữ cơ thể ở nguyên một tư thế, qua đó làm chủ và điều khiển được sự dẻo dai của cơ thể, nâng cao trí ích của Yoga, bộ môn này được xem là hình thức luyện tập thể thao lâu đời và đáng tin cậy nhất trên thế giới.</p>
+                                                        <p>Đặc biệt, Yoga còn được biết đến biểu hiện gen trong các tế bào miễn dịch ở con người.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-tab-yoga box-tab-yoga-4">
+                                            <div class="box-title-3">
+                                                <h4><a href="#"> Yoga mang lại sự tịnh tâm, cân bằng</a></h4>
+                                                <p>
+                                                    Yoga có nhiều bài tập thiền, tập thở,người tập phải thực sự tĩnh
+                                                    tâm, nhập tâm vào những âm thanh thư giãn, lắng nghe cơ thể từ đó quên hết muộn phiền lo âu. Những giờ phút tập thiền, hoặc
+                                                     nâng cao năng lực của trí tuệ, nắm bắt được quy luât của
+                                                    sự sống, tìm được cội nguồn giá trị của cuộc đời từ đó sống lành mạnh, an hòa và thư thái hơn.
+                                                </p>
+                                                <p>
+                                                    Rất nhiều lợi ích của Yoga đã được chứng minh bởi hàng triệu người luyện tập trên toàn thế giới. Người thành đạt, giàu có ở đỉnh
+                                                    cao của xã hội tìm đến Yoga để cân bằng và gìn giữ lối sống lành mạnh. Người gặp nhiều stress và các vấn đề về sức khỏe tìm đến
+                                                    Yoga để được thanh lọc cả cơ thể và tâm hồn. Người béo, người gầy, người ốm yếu, đàn ông, đàn bà, người già, người trẻ tìm đến
+                                                    Yoga để luyện tập cho mình một hình thể khỏe mạnh, dẻo dai và tâm hồn thư thái, trí tuệ anh minh.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom-tab-yoga">
+                                            <div class="container">
+                                                <div class="top-bottom-tab-yoga">
+                                                    <span>Đó là sự kỳ diệu của Yoga! Hãy tập Yoga để hoàn thiện vẻ đẹp hình thể, chăm sóc tâm hồn và tận hưởng cuộc sống trọn vẹn hơn! </span>
+                                                    <a href="#" class="btn btn-register">Đăng ký ngay</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="box-comment">
+                                            <img src="images/comment_03.jpg" width="100%" height="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <div class="content-tab">
+                                        <div class="box-title-3">
+                                            <h2>Lớp học về Yoga</h2>
+                                            <p>Yoga là một phần quan trọng của lịch mỗi trung tâm thể dục của ngày nay. Đó là tất cả do yoga đang được rất phổ quát cho tất cả các loại của người dân và các lợi ích tổng thể nó mang lại cho sức khỏe và hình dạng bất kỳ người nào. Các lớp học yoga được liệt kê dưới đây có một thời gian ngắn hơn các lớp khác của chúng tôi về lịch trình. Mỗi lớp học yoga tại phòng tập thể dục iron mass là người mới bắt đầu và trước khi sinh thân thiện!</p>
+                                        </div>
+                                        <div class="box-list-class">
+                                            <h3>Chúng tôi có 3 lớp để bạn có thể lựa chọn</h3>
+                                            <div class="list-class">
+                                                <div class="row">
+                                                    <div class="col-xs-5 img-list-class">
+                                                        <a href="#"><img src="images/img4-1.jpg" width="" height="" alt=""></a>
+                                                    </div>
+                                                    <div class="col-xs-7">
+                                                        <div class="content-list-class">
+                                                            <h4><a href="#">01) DỄ DÀNG VỚI YOGA</a> </h4>
+                                                            <h5>1 giờ, một lần mỗi tuần.</h5>
+                                                            <p>Do hành trình nhẹ của nó, đó là nên cho người cao niên, những người bị thương nhẹ và học sinh trước khi sinh.</p>
+                                                            <a href="#" class="btn btn-register">Đăng ký</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="list-class">
+                                                <div class="row">
+                                                    <div class="col-xs-5 img-list-class">
+                                                        <a href="#"><img src="images/img4-2.jpg" width="" height="" alt=""></a>
+                                                    </div>
+                                                    <div class="col-xs-7">
+                                                        <div class="content-list-class">
+                                                            <h4><a href="#">02) AIR YOGA</a> </h4>
+                                                            <h5>1 giờ, một lần mỗi tuần.</h5>
+                                                            <p>Air Yoga là một hình thức Yoga mới với các bài tập luyện rất nhiều tư thế asana khác nhau bằng sự hỗ trợ của một tấm vải treo trên trần nhà. Air yoga giúp tăng cường độ dẻo dai của cơ bắp, vai,cánh tay, ngăn ngừa đau nhức cột sống.  </p>
+                                                            <a href="#" class="btn btn-register">Đăng ký</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="list-class">
+                                                <div class="row">
+                                                    <div class="col-xs-5 img-list-class">
+                                                        <a href="#"><img src="images/img4-3.png" width="" height="" alt=""></a>
+                                                    </div>
+                                                    <div class="col-xs-7">
+                                                        <div class="content-list-class">
+                                                            <h4><a href="#">03) ASANA PRANAYAMA PRO</a> </h4>
+                                                            <h5>1 giờ, một lần mỗi tuần.</h5>
+                                                            <p>Asana có nghĩa là ‘tư thế’. Pranayama (Prana + Ayama) nghĩa là ‘sự mở rộng’ của những ‘năng lượng thiết yếu’. Lớp học Asana Pranayama là sự kết hợp giữa các tư thế của cơ thể với bài tập thở. Học viên có thể học được các động tác chính xác và cách hít thở đúng. Lớp học này phù hợp với người tập ở mọi mức độ.</p>
+                                                            <a href="#" class="btn btn-register">Đăng ký</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="messages">
+                                    <div class="content-tab">
+                                        <div class="box-title-3">
+                                            <h2>Học viên đăng ký Yoga tại Level</h2>
+                                            <div class="box-icon-right">
+                                                <div class="btn-group icon-right-1">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <img src="images/icon-gym-3.jpg" width="" height="" alt="">
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                        <li role="separator" class="divider"></li>
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group icon-right-2">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <img src="images/icon-gym-4.jpg" width="" height="" alt="">
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                        <li role="separator" class="divider"></li>
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-list-member">
+                                            <div class="list-member row">
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-1.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-2.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-3.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-4.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-5.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-6.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-7.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-8.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                <div class="img">
+                                                    <a href="#">
+                                                        <img src="images/img9-9.png" alt="" width="" height="">
+                                                    </a>
+                                                </div>
+                                                <div class="text">
+                                                    <a href="#">Steven Ayokee</a>
+                                                    <p>Học viên</p>
+                                                </div>
+                                            </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-10.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-11.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-12.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-13.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-14.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-15.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <div class="img">
+                                                        <a href="#">
+                                                            <img src="images/img9-16.png" alt="" width="" height="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text">
+                                                        <a href="#">Steven Ayokee</a>
+                                                        <p>Học viên</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <nav aria-label="Page navigation">
+                                                <ul class="pagination">
+                                                    <li>
+                                                        <a href="#" aria-label="Previous">
+                                                            <span aria-hidden="true">&laquo;</span>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="#">1</a></li>
+                                                    <li><a href="#">2</a></li>
+                                                    <li><a href="#">3</a></li>
+                                                    <li><a href="#">4</a></li>
+                                                    <li><a href="#">5</a></li>
+                                                    <li>
+                                                        <a href="#" aria-label="Next">
+                                                            <span aria-hidden="true">&raquo;</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="right-list-classroom">
+                            <div id="carousel-example-generic-1" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#"><img src="images/img4-4.jpg" alt="" width="" height=""></a>
+                                        <div class="carousel-caption">
+                                            <h4><a href="#">YOGA CLASS COACH</a></h4>
+                                            <span>YOGA CLASS COACH</span>
+                                            <div class="text">
+                                                <p>Ngày mai (20/10) sẽ là thời điểm cơ quan quản lý công bố giá cơ sở mới và yêu cầu điều chỉnh mức bán lẻ xăng dầu trong nước. Trước đó, bảng giá thành phẩm tại thị trường Singapore được Bộ Công Thương cập nhật cho thấy</p>
+                                                <p>Ngày mai (20/10) sẽ là thời điểm cơ quan quản lý công bố giá cơ sở mới và yêu cầu điều chỉnh mức bán lẻ xăng dầu trong nước. Trước đó, bảng giá thành phẩm tại thị trường Singapore được Bộ Công Thương cập nhật cho thấy, bình quân giá xăng RON 92 trong 2 tuần qua đạt gần 60 USD mỗi thùng, tăng 7% so với chu kỳ liền trước (56 USD một thùng). Những ngày gần đây, giá xăng liên tục vượt trên mốc 60 USD một thùng.</p>
+                                                <p>Theo nhận định của các doanh nghiệp đầu mối, giá bán lẻ xăng dầu có thể tiếp tục tăng mạnh nếu cơ quan quản lý không tăng mức sử dụng quỹ bình ổn, vốn đang ở mức 300 đồng với một lít xăng.</p>
+                                            </div>
+                                            <a href="#" class="btn btn-register"> Đăng ký huấn luyện viên</a>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"><img src="images/img4-4.jpg" alt="" width="" height=""></a>
+                                        <div class="carousel-caption">
+                                            <h4><a href="#">YOGA CLASS COACH</a></h4>
+                                            <span>YOGA CLASS COACH</span>
+                                            <div class="text">
+                                                <p>Ngày mai (20/10) sẽ là thời điểm cơ quan quản lý công bố giá cơ sở mới và yêu cầu điều chỉnh mức bán lẻ xăng dầu trong nước. Trước đó, bảng giá thành phẩm tại thị trường Singapore được Bộ Công Thương cập nhật cho thấy</p>
+                                                <p>Ngày mai (20/10) sẽ là thời điểm cơ quan quản lý công bố giá cơ sở mới và yêu cầu điều chỉnh mức bán lẻ xăng dầu trong nước. Trước đó, bảng giá thành phẩm tại thị trường Singapore được Bộ Công Thương cập nhật cho thấy, bình quân giá xăng RON 92 trong 2 tuần qua đạt gần 60 USD mỗi thùng, tăng 7% so với chu kỳ liền trước (56 USD một thùng). Những ngày gần đây, giá xăng liên tục vượt trên mốc 60 USD một thùng.</p>
+                                                <p>Theo nhận định của các doanh nghiệp đầu mối, giá bán lẻ xăng dầu có thể tiếp tục tăng mạnh nếu cơ quan quản lý không tăng mức sử dụng quỹ bình ổn, vốn đang ở mức 300 đồng với một lít xăng.</p>
+                                            </div>
+                                            <a href="#" class="btn btn-register"> Đăng ký huấn luyện viên</a>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"><img src="images/img4-4.jpg" alt="" width="" height=""></a>
+                                        <div class="carousel-caption">
+                                            <h4><a href="#">YOGA CLASS COACH</a></h4>
+                                            <span>YOGA CLASS COACH</span>
+                                            <div class="text">
+                                                <p>Ngày mai (20/10) sẽ là thời điểm cơ quan quản lý công bố giá cơ sở mới và yêu cầu điều chỉnh mức bán lẻ xăng dầu trong nước. Trước đó, bảng giá thành phẩm tại thị trường Singapore được Bộ Công Thương cập nhật cho thấy</p>
+                                                <p>Ngày mai (20/10) sẽ là thời điểm cơ quan quản lý công bố giá cơ sở mới và yêu cầu điều chỉnh mức bán lẻ xăng dầu trong nước. Trước đó, bảng giá thành phẩm tại thị trường Singapore được Bộ Công Thương cập nhật cho thấy, bình quân giá xăng RON 92 trong 2 tuần qua đạt gần 60 USD mỗi thùng, tăng 7% so với chu kỳ liền trước (56 USD một thùng). Những ngày gần đây, giá xăng liên tục vượt trên mốc 60 USD một thùng.</p>
+                                                <p>Theo nhận định của các doanh nghiệp đầu mối, giá bán lẻ xăng dầu có thể tiếp tục tăng mạnh nếu cơ quan quản lý không tăng mức sử dụng quỹ bình ổn, vốn đang ở mức 300 đồng với một lít xăng.</p>
+                                            </div>
+                                            <a href="#" class="btn btn-register"> Đăng ký huấn luyện viên</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic-1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic-1" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic-1" data-slide-to="2"></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--box-list-classroom-->
+
+        <div class="box-resgister-classroom box-resgister-classroom-1">
+            <div class="container">
+                <div class="box-title">
+                    <h3>Đăng ký ngay</h3>
+                    <p>Chúng tôi cung cấp nhiều loại Thẻ Hội Viên cho bạn lựa chọn để sử dụng các dịch vụ, nhận tư vấn thể chất chuyên sâu, bao gồm đo chỉ số cơ thể Inbody.</p>
+                </div>
+                <div class="row list-resgister-classroom">
+                    <div class="col-xs-4">
+                        <div class="resgister-classroom">
+                            <a href="#" class="img-expert">
+                                <img src="images/img3-07.png" alt="" width="" height="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="resgister-classroom">
+                            <a href="#" class="img-expert">
+                                <img src="images/img3-08.png" alt="" width="" height="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="resgister-classroom">
+                            <a href="#" class="img-expert">
+                                <img src="images/img3-09.png" alt="" width="" height="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--list-resgister-classroom-->
+
+                <div class="row classroom">
+                    <div class="col-xs-4">
+                        <img src="images/img3-10.jpg" alt="" width="" height="">
+                    </div>
+                    <div class="col-xs-8">
+                        <div class="info-class">
+                            <p>01 ngày tập luyện miễn phí</p>
+                            <p>02 tuần tập luyện 300.000đ</p>
+                            <p>01 tháng + 02 buổi tập cùng HLV cá nhân 500.000đ</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-register">Đăng ký tập thử</a>
+            </div>
+        </div>
+        <!--box-expert-->
+
+        <div class="box-img-participation box-img-participation-1">
+            <div class="box-participation">
+                <div class="container">
+                    <div class="participation">
+                        <h3>Bạn có quan tâm đến một thân hình khỏe mạnh và sexy</h3>
+                        <a href="#" class="btn btn-register">Đăng ký thành viên</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!--main-page-->
+
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" width="" height="" alt=""></a>
+            </div>
+            <ul class="social-network">
+                <li><a class="fa fa-facebook" aria-hidden="true" href="#"></a></li>
+                <li><a class="fa fa-google-plus" aria-hidden="true" href="#"></a></li>
+                <li><a class="fa fa-twitter" aria-hidden="true" href="#"></a></li>
+                <li><a class="fa fa-youtube" aria-hidden="true" href="#"></a></li>
+            </ul>
+            <div class="bottom-footer">
+                <span>© 2016 Bản quyền thuộc LEVEL - FITNESS & YOGA -  |</span>
+                <a href="#">Điều khoản / mật</a>
+            </div>
+        </div>
+    </footer>
+    <!--footer-->
+
+	<div class="overflow"></div>
+    <!-- Modal -->
+    <div class="modal fade login-register" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="modal-dialog box-popup-login" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="loginLabel">Đăng Nhập</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="title-popup">Đăng ký nhanh bằng tài khoản</p>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a> </li>
+                        <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i> Google</a> </li>
+                    </ul>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="">Amount (in dollars)</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                <input type="email" class="form-control" id="" placeholder="Địa chỉ Email hoặc số điện thoại đăng ký">
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></div>
+                                <input type="text" class="form-control" id="" placeholder="Mật khẩu">
+                            </div>
+                        </div>
+                        <a href="#" class="forget-pass">Quên Mật Khẩu?</a>
+                        <button type="button" class="btn btn-register">Đăng nhập</button>
+                    </form>
+                    <div class="footer-popup">
+                        <span>Bạn là thành viên của LVEL</span>
+                        <a href="#" class="btn btn-register btn-login">Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- register -->
+    <div class="modal fade login-register" id="register" tabindex="-1" role="dialog" aria-labelledby="registerLabel">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="modal-dialog box-popup-register" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="registerLabel">Đăng ký thành viên</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="title-popup">Đăng ký nhanh bằng tài khoản</p>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a> </li>
+                        <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i> Google</a> </li>
+                    </ul>
+                    <p class="title-popup">Đăng ký thành viên Gym & Fitness Yoga</p>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="">Amount (in dollars)</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-user user-custom" aria-hidden="true"></i></div>
+                                <input type="text" class="form-control" id="" placeholder="Tên">
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                                <input type="datetime" class="form-control" id="" placeholder="Ngày tháng năm sinh">
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                <input type="email" class="form-control" id="" placeholder="Địa chỉ Email">
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                <input type="text" class="form-control" id="" placeholder="Số điện thoại">
+                            </div>
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></div>
+                                <input type="text" class="form-control" id="" placeholder="Mật khẩu">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-register">Đăng Ký</button>
+                    </form>
+                    <p>Nhấp chọn "Đăng ký", tôi đã đọc và đồng ý với các <a href="#">Quy luật bảo mật</a> và <a href="#">Thỏa thuận sử dụng</a> </p>
+                    <div class="footer-popup">
+                        <span>Bạn là thành viên của LVEL</span>
+                        <a href="#" class="btn btn-register btn-login">Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/javascript.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.film_roll.js"></script>
+<script src="js/index.js"></script>
+</html>

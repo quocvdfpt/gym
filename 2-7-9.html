@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0' >
+    <title>Gym</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/datepickk.min.css"/>
+    <link rel="stylesheet" href="css/thumbelina.css"/>
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=vietnamese" rel="stylesheet">
+</head>
+<body class="page-manage">
+<header>
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2 left-top-header">
+                    <a href="#">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>0978 888 999
+                    </a>
+                </div>
+                <div class="col-xs-5 map-top-header">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> 69 Nguyễn Trãi, Thanh Xuân, Hà Nội
+                </div>
+                <div class="col-xs-5 right-top-header">
+                    <ul>
+                        <li><a href="#">Liên hệ</a> </li>
+                        <li><a href="#">Giới thiệu</a> </li>
+                        <li class="register"><a href="#" data-toggle="modal" data-target="#register"> <i class="fa fa-user user-custom" aria-hidden="true"></i> Đăng ký</a> </li>
+                        <li class="login"><a href="#" data-toggle="modal" data-target="#login">Đăng nhập</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="search">
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="search" class="form-control" id="" placeholder="Search">
+                                        <div class="input-group-addon"><button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <a class="navbar-brand" href="#"><img src="images/img-logo-1.png" width="" height="" alt=""></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active level-1"><a href="#" class="icon-home">Trang chủ</a></li>
+                            <li class="level-1"><a href="#" class="icon-change-award">Tham gia</a></li>
+                            <li class="level-1">
+                                <a href="#" class="icon-guide">Lớp học</a>
+                                <ul class="menu-level-2">
+                                    <li class="level-2"><a href="#">Gym</a> </li>
+                                    <li class="level-2"><a href="#">Yoga</a> </li>
+                                    <li class="level-2"><a href="#">Bơi lội</a> </li>
+                                </ul>
+                            </li>
+                            <li class="level-1"><a href="#" class="icon-guide">Thẻ hội viên</a></li>
+                            <li class="level-1"><a href="#" class="icon-guide">Lịch tập</a></li>
+                            <li class="level-1"><a href="#" class="icon-guide">Giảng viên</a></li>
+                            <li class="level-1"><a href="#" class="icon-guide">Tin tức</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <div class="search">
+                                    <form class="form-inline">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input type="search" class="form-control" id="" placeholder="Search">
+                                                <div class="input-group-addon"><button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--end header-->
+
+<div class="main-page">
+    <div class="banner-user">
+        <img src="images/banner-15.jpg" width="" height="" alt="">
+        <div class="box-change-img">
+            <div class="change-img">
+                <input type="file">
+                <span>Thay đổi ảnh bìa</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8">
+                <div class="colum-left">
+                    <div class="top-info">
+                        <div class="img-user">
+                            <a href="#"><img src="images/img15-1.png" width="" height="" alt=""></a>
+                            <div class="box-change-img">
+                                <div class="change-img">
+                                    <input type="file">
+                                    <span>Thay đổi avatar</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name-user">
+                            <h3>Nguyễn Bích</h3>
+                            <p>Gold member</p>
+                            <div class="box-gold">
+                                <p class="icon-gold icons">Gold</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-info-user">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation"><h4 class="title-1"><a href="#">Thông tin tài khoản</a></h4></li>
+                            <li role="presentation" class="active"><h4 class="title-1"><a href="#">Thay đổi lịch tập</a></h4></li>
+                            <li role="presentation"><h4 class="title-1"><a href="#">Đăng ký/ra hạn</a></h4></li>
+                        </ul>
+                    </div>
+                    <!--box-info-use-->
+
+                    <div class="box-notification-user box-notification-user-3">
+                        <p>
+                            <span>Thông báo:</span>Tài khoản của bạn sắp hết hạn, bạn có thể ra hạn<a href="#">tại đây</a>
+                        </p>
+                    </div>
+
+                    <div class="box-register-2">
+                        <h3 class="title-1">Đăng ký thẻ hội viên</h3>
+                        <h4>Thông tin thẻ</h4>
+                        <h5>Tài khoản của bạn đang là thành viên <span>GOLD MEMBER </span>bạn có muốn <a href="#"> Đăng ký</a> thành viên VIP </h5>
+                        <div class="register-2">
+                            <p class="icons icon-gold-1">Tài khoản đăng ký <span>01/10/2016</span> đến hết <span>31/11/2016</span></p>
+                            <a href="#" class="btn btn-register-3"  data-toggle="modal" data-target="#popup-card" >Ra hạn</a>
+                        </div>
+                        <p>Tài khoản của bạn còn 1 tháng nữa tính từ thời gian đăng ký <a href="#"> Ra hạn ngay!</a> </p>
+                    </div>
+
+                    <div class="box-popup">
+                        <span class="icon-close"></span>
+                        <div class="box-register-1">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <a href="#">
+                                        <img src="images/img3-09.png" alt="" width="" height="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h3>Bạn đã đăng ký thành viên vip chưa?</h3>
+                                <p>Đăng ký ngay để nhận ưu đãi</p>
+                            </div>
+                            <a href="#" class="btn btn-register">Đăng ký thành viên vip</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="colum-right">
+                    <div class="box-training-schedule">
+                        <div class="top-training-schedule">
+                            <h4 class="title-1">Lịch tập</h4>
+                            <a href="#" class="edit edit-2">Đăng ký lịch tập mới</a>
+                        </div>
+                        <div class="training-schedule">
+                            <img src="images/icon-gym-5.png" alt="" height="" width="">
+                            <div class="right-training-schedule">
+                                <h4><a href="#">Gym</a></h4>
+                                <p>Thứ năm 16:00-18:30</p>
+                            </div>
+                        </div>
+                        <div class="training-schedule">
+                            <img src="images/icon-gym-5.png" alt="" height="" width="">
+                            <div class="right-training-schedule">
+                                <h4><a href="#">Gym</a></h4>
+                                <p>Thứ năm 16:00-18:30</p>
+                                <p>Thứ năm 16:00-18:30</p>
+                                <p>Thứ năm 16:00-18:30</p>
+                            </div>
+                        </div>
+                        <div class="training-schedule">
+                            <img src="images/icon-gym-5.png" alt="" height="" width="">
+                            <div class="right-training-schedule">
+                                <h4><a href="#">Gym</a></h4>
+                                <p>Thứ năm 16:00-18:30</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--box-training-schedule-->
+
+                    <div class="box-calendar-3">
+                        <div class="calendar">
+                            <img src="images/img-lich.jpg" alt="" height="" width="">
+                        </div>
+                    </div>
+                    <!--box-calendar-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--main-page-->
+
+<footer>
+    <div class="container">
+        <div class="logo">
+            <a href="#"><img src="images/logo.png" width="" height="" alt=""></a>
+        </div>
+        <ul class="social-network">
+            <li><a class="fa fa-facebook" aria-hidden="true" href="#"></a></li>
+            <li><a class="fa fa-google-plus" aria-hidden="true" href="#"></a></li>
+            <li><a class="fa fa-twitter" aria-hidden="true" href="#"></a></li>
+            <li><a class="fa fa-youtube" aria-hidden="true" href="#"></a></li>
+        </ul>
+        <div class="bottom-footer">
+            <span>© 2016 Bản quyền thuộc LEVEL - FITNESS & YOGA -  |</span>
+            <a href="#">Điều khoản / mật</a>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+<div class="overflow"></div>
+<!-- Modal -->
+<div class="modal fade login-register" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-dialog box-popup-login" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="loginLabel">Đăng Nhập</h4>
+            </div>
+            <div class="modal-body">
+                <p class="title-popup">Đăng ký nhanh bằng tài khoản</p>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a> </li>
+                    <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i> Google</a> </li>
+                </ul>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label class="sr-only" for="">Amount (in dollars)</label>
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                            <input type="email" class="form-control" id="" placeholder="Địa chỉ Email hoặc số điện thoại đăng ký">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></div>
+                            <input type="text" class="form-control" id="" placeholder="Mật khẩu">
+                        </div>
+                    </div>
+                    <a href="#" class="forget-pass">Quên Mật Khẩu?</a>
+                    <button type="button" class="btn btn-register">Đăng nhập</button>
+                </form>
+                <div class="footer-popup">
+                    <span>Bạn là thành viên của LVEL</span>
+                    <a href="#" class="btn btn-register btn-login">Đăng nhập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- register -->
+<div class="modal fade login-register" id="register" tabindex="-1" role="dialog" aria-labelledby="registerLabel">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-dialog box-popup-register" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="registerLabel">Đăng ký thành viên</h4>
+            </div>
+            <div class="modal-body">
+                <p class="title-popup">Đăng ký nhanh bằng tài khoản</p>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a> </li>
+                    <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i> Google</a> </li>
+                </ul>
+                <p class="title-popup">Đăng ký thành viên Gym & Fitness Yoga</p>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label class="sr-only" for="">Amount (in dollars)</label>
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-user user-custom" aria-hidden="true"></i></div>
+                            <input type="text" class="form-control" id="" placeholder="Tên">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                            <input type="datetime" class="form-control" id="" placeholder="Ngày tháng năm sinh">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                            <input type="email" class="form-control" id="" placeholder="Địa chỉ Email">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            <input type="text" class="form-control" id="" placeholder="Số điện thoại">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></div>
+                            <input type="text" class="form-control" id="" placeholder="Mật khẩu">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-register">Đăng Ký</button>
+                </form>
+                <p>Nhấp chọn "Đăng ký", tôi đã đọc và đồng ý với các <a href="#">Quy luật bảo mật</a> và <a href="#">Thỏa thuận sử dụng</a> </p>
+                <div class="footer-popup">
+                    <span>Bạn là thành viên của LVEL</span>
+                    <a href="#" class="btn btn-register btn-login">Đăng nhập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade popup-card" id="popup-card" tabindex="-1" role="dialog" aria-labelledby="registerLabel">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-dialog box-popup-register" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h4 class="title-1">Ra hạn thẻ hội viên</h4>
+                <div class="row list-resgister-classroom">
+                    <div class="col-xs-6">
+                        <div class="resgister-classroom">
+                            <h5>Bạn có muốn tiếp tục ra hạn ở mức thẻ Gold Member</h5>
+                            <a href="#" class="img-expert">
+                                <img src="images/img3-07.png" alt="" width="" height="">
+                            </a>
+                            <div class="radio">
+                                <label><input type="radio" name="inlineRadioOptions" id="" value="option1"><span class="icons icon-radio-1"></span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="resgister-classroom">
+                            <h5>Hoặc bạn có thể đăng ký mới với thẻ Platinum Member</h5>
+                            <a href="#" class="img-expert">
+                                <img src="images/img3-08.png" alt="" width="" height="">
+                            </a>
+                            <a href="#" class="btn btn-register">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-register-card intro-product">
+                    <div class="content-intro-product">
+                        <div class="content">
+                            <div class="top-content">
+                                <h4 class="title-1">Hạn mức thẻ</h4>
+                                <h5>Thẻ có giá trị  250.000Đ bạn được tập trong vòng 1 tháng/dịch vụ</h5>
+                            </div>
+                            <div class="second-content">
+                                <h4 class="title-1">Lịch tập</h4>
+                                <p>Bạn có thể thay đổi lịch tập mới tại đây</p>
+                                <h5>Tập GYM</h5>
+                                <form>
+                                    <p>Chọn khung giờ bạn có thể tập trong tuần</p>
+                                    <div class="form-inline form-inline-0">
+                                        <div class="form-group box-select box-select-1 box-select-2">
+                                            <label>Từ</label>
+                                            <select class="form-control">
+                                                <option>06:30</option>
+                                                <option>07:30</option>
+                                                <option>08:30</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group box-select box-select-1 box-select-2">
+                                            <label>Đến</label>
+                                            <select>
+                                                <option>08:00</option>
+                                                <option>09:00</option>
+                                                <option>10:00</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <p>Chọn lịch tập: <span>Bạn có thể chọn và mặc định các ngày trong tuần và trong tháng để đến lớp tham gia tập </span></p>
+                                    <div class="form-inline form-inline-1">
+                                        <label>Thời gian tập</label>
+                                        <div class="row">
+                                            <div class="form-group box-select box-select-1 box-select-2 col-xs-6">
+                                                <select class="form-control">
+                                                    <option>Sáng: 06:30</option>
+                                                    <option>07:30</option>
+                                                    <option>08:30</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group box-select box-select-1 box-select-2 col-xs-6">
+                                                <select>
+                                                    <option>Chiều 18:00</option>
+                                                    <option>09:00</option>
+                                                    <option>10:00</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-inline form-inline-2 form-inline-4">
+                                        <label>Lịch tập</label>
+                                        <div class="row">
+                                            <div class="form-group box-select box-select-1 box-select-2 col-xs-12">
+                                                <div class='input-group date' id='datetimepicker5'>
+                                                    <input type='text' class="form-control" />
+                                                <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-inline form-inline-2">
+                                        <label>Lớp tập</label>
+                                        <div class="row">
+                                            <div class="form-group box-select box-select-1 box-select-2 col-xs-12">
+                                                <select class="form-control">
+                                                    <option>Chọn lớp tập</option>
+                                                    <option>07:30</option>
+                                                    <option>08:30</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-inline-3">
+                                        <label>Đăng ký mua thêm dụng cụ hỗ trợ tập luyện</label>
+                                        <div class="form-group box-select box-select-1 box-select-2">
+                                            <select class="form-control">
+                                                <option>Lựa chọn các sản phẩm của chúng tôi</option>
+                                                <option>07:30</option>
+                                                <option>08:30</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <p><span>Bạn có thể tham khảo các sản phẩm cũng như giá </span><a href="#">tại đây</a> </p>
+                                </form>
+                            </div>
+
+                            <div class="add-content">
+                                <span>Bạn có thể chọn thêm dịch vụ của chúng tôi</span>
+                                <a href="#">Thêm <i>+</i></a>
+                            </div>
+                            <a href="#" class="btn btn-register">Lưu thanh toán</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/javascript.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.film_roll.js"></script>
+<script src="js/index.js"></script>
+<script src="js/datepickk.min.js"></script>
+<script src="js/thumbelina.js"></script>
+<script src="js/jquery.elevateZoom-3.0.8.min.js"></script>
+<script src="js/moment-with-locales.js"></script>
+<script src="js/bootstrap-datetimepicker.js"></script>
+</html>
